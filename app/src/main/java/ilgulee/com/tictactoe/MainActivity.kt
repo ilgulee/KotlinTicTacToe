@@ -46,12 +46,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun cellClickListener(row: Int, column: Int) {
-        gameBoard[row][column] = turn
-        val cell = ((table_layout?.getChildAt(row)) as TableRow).getChildAt(column) as TextView
-        cell.text = turn.toString()
-        turn = if (turn == 'X') 'O' else 'X'
-        text_view_turn.text = String.format(resources.getString(R.string.turn), turn)
-        checkGameStatus()
+        if (gameBoard[row][column] == ' ') {
+            gameBoard[row][column] = turn
+            val cell = ((table_layout?.getChildAt(row)) as TableRow).getChildAt(column) as TextView
+            cell.text = turn.toString()
+            turn = if (turn == 'X') 'O' else 'X'
+            text_view_turn.text = String.format(resources.getString(R.string.turn), turn)
+            checkGameStatus()
+        }
     }
 
     private fun isBoardFull(gameBoard: Array<CharArray>): Boolean {
