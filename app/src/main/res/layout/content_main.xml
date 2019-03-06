@@ -18,140 +18,40 @@
                  app:layout_constraintTop_toTopOf="parent"
                  android:gravity="center">
 
-        <TableRow android:id="@+id/r0"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:gravity="center_horizontal"
-                  android:background="@android:color/black">
+        <TableRow android:id="@+id/row0"
+                  style="@style/TableRow">
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="0"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Left"
+                    android:layout_marginTop="0dp"/>
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="1"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Middle"
+                    android:layout_marginTop="0dp"/>
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="2"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Right"
+                    android:layout_marginTop="0dp"/>
         </TableRow>
-        <TableRow android:id="@+id/r1"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:gravity="center_horizontal"
-                  android:background="@android:color/black">
+
+        <TableRow android:id="@+id/row1"
+                  style="@style/TableRow">
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="0"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Left"/>
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="1"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Middle"/>
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="2"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Right"/>
         </TableRow>
-        <TableRow android:id="@+id/r2"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:gravity="center_horizontal"
-                  android:background="@android:color/black">
+
+        <TableRow android:id="@+id/row2"
+                  style="@style/TableRow">
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="0"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Left"
+                    android:layout_marginBottom="0dp"/>
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="1"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Middle"
+                    android:layout_marginBottom="0dp"/>
             <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:gravity="center"
-                    android:background="@android:color/white"
-                    android:layout_marginBottom="2dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_column="2"
-                    android:layout_marginRight="2dp"
-                    android:layout_marginEnd="2dp"
-                    android:textSize="64sp"
-                    android:textColor="@android:color/black"
-                    android:clickable="true"/>
+                    style="@style/Cell.Right"
+                    android:layout_marginBottom="0dp"/>
         </TableRow>
     </TableLayout>
 
