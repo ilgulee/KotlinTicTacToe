@@ -22,7 +22,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
-            android:id="@+id/turnTextView"
+            android:id="@+id/text_view_turn"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
